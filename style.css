@@ -2,6 +2,13 @@
     padding: 0;
     margin: 0;
 }
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f215477;
+}
 #meme-display-grid{
     display: grid;
     height: 1080px;
