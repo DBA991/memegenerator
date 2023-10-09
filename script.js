@@ -53,7 +53,7 @@ function citaSwitch(){
         }   
 }
 function getMeme() {
-    let memeDisplay = document.getElementById("meme-display");
+    let memeDisplay = document.getElementById("meme-display-grid");
     html2canvas(memeDisplay).then(function(canvas) {
         canvas.toBlob(function(blob) {
             let memeDisplayURL = window.URL.createObjectURL(blob);
