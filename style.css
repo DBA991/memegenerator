@@ -35,9 +35,6 @@
     grid-area: 2 / 1 / 4 / -1;
     overflow: hidden;
 }
-#image {
-    height: fit-content;
-}
 #line-2 {
     background-color: black;
     grid-area: 4 / 1 / -1 / -1;
