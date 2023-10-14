@@ -42,7 +42,7 @@ function getLogo() {
 function citaSwitch(){
     let citaColo = document.getElementById("citation");
     if (citaColo.textContent === "") {
-        alert("No Text");
+        window.alert("No Text");
     } else {
         if (citaColo.style.color === "white") {
                 citaColo.style.color = "black";
